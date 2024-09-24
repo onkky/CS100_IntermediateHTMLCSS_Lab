@@ -42,7 +42,7 @@ This file contains the structure we will style using CSS.
 ```css
 <head>
     <title>Web Layout Exercise</title>
-    <link rel="stylesheet" href="https://github.com/onkky/CS100_IntermediateHTMLCSS_Lab.git">
+    <link rel="stylesheet" href="layout.css">
 </head>
 ```
 
@@ -63,6 +63,9 @@ This file contains the structure we will style using CSS.
 - Add the following styles to your CSS file under the previous code:
     - Set font family to Arial for better readability.
 ```css
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 ```
 
 ---
@@ -73,6 +76,12 @@ This file contains the structure we will style using CSS.
     - Add borders as gray color solid lines to separate each section.
     - Center the text in each section.
 ```css
+header, nav, article, div, footer {
+    padding: 10px;
+    background-color: yellow;
+    border: 1px solid gray;
+    text-align: center;
+}
 ```
 
 ---
@@ -83,6 +92,28 @@ This file contains the structure we will style using CSS.
     - Assign width percentages to each remaining section: 20% for nav and div, and 60% for article. Set a height of these elements to 200px for visualization purposes.
     - Ensures the footer appears below the nav, article, and div sections.
 ```css
+header {
+    width: 100%;
+    clear: both;
+}
+footer {
+    width: 100%;
+}
+nav {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+div {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+article {
+    width: 60%;
+    height: 200px;
+    float: left;
+}
 ```
 
 ---
