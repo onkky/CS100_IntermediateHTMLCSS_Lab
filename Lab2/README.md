@@ -95,6 +95,9 @@ footer {
 ### Step 5: Keeping the Navigation Bar Visible
 - Add CSS to position the `nav` element so that the navigation stays fixed while scrolling.
 ```css
+nav {
+  position: fixed;
+}
 ```
 
 ---

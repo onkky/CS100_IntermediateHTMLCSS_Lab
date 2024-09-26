@@ -31,8 +31,9 @@ nav {
     text-align: center;
     float: left;
     width: 20%;
-    height: 100vh;
+    height: 120vh;
     padding-top: 30px;
+    position: fixed;
 }
 
 nav ul {
