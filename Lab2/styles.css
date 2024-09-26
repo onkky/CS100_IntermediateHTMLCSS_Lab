@@ -33,7 +33,7 @@ nav {
     width: 20%;
     height: 120vh;
     padding-top: 30px;
-    position: fixed;
+    position: sticky;
 }
 
 nav ul {
